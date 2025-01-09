@@ -4,10 +4,14 @@ An automated web scraping tool that collects apartment data from simulated real 
 
 ## Features
 
-- **Web Scraping**: Uses **Selenium** to automate browser interactions and **BeautifulSoup** to scrape apartment data from websites.
-- **Data Collection**: Automatically collects apartment information, such as price, address, link, and other relevant details.
-- **Google Forms Integration**: Saves the scraped data into a **Google Form**, which automatically populates a **Google Spreadsheet**.
-- **Future Plans**: Automate the handling of the outputted Google Spreadsheet for further analysis or reporting.
+- **Class-based Architecture**:
+   - The **Rent** class contains all the logic for scraping apartment data using Selenium and BeautifulSoup. It also handles submitting the scraped data to the Google Form.
+- **Data Extraction with BeautifulSoup**:
+   - BeautifulSoup is used to parse the HTML of the page and extract the relevant apartment data, such as price, address, link, and other details.
+- **Scraping with Selenium**:
+   - Selenium is used to interact with the websites, automate fill and clicks.
+- **Future Plans**:
+   - Automate the handling of the outputted Google Spreadsheet for further analysis or reporting.
 
 ## Getting Started
 
